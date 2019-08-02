@@ -1,0 +1,72 @@
+
+#template_name:getCommentListUsingGET
+#AppCommentController,get,/api/getCommentList
+#评价列表
+#priority:1
+查询成功_正确的uid和aboutId.case01:
+    apiPath:
+      /api/getCommentList
+    params:
+      uid: 20162955
+      aboutId: 10
+      parentId: 0
+      pageIndex: 1
+      pageSize: 1
+    http_statusCode:
+      200
+    responsesBody:
+      code: 0
+      message: "ok"
+      bodyMessage: "{\"mainComment\":null,\"pageDatas\":[{\"aboutId\":\"10\",\"commentContent\":\"华丽的评价，不需要太多的语言，一切尽在不言中。\",\"commentId\":1,\"commentImages\":[{\"Big\":\"https://gaimg.fx110.com/upload/images/glodcoinmall/2018/12/04/150253050.jpg\",\"Description\":\"string\",\"Small\":\"https://gaimg.fx110.com/upload/images/glodcoinmall/2018/12/04/150253050.jpg\"},{\"Big\":\"https://gaimg.fx110.com/upload/images/glodcoinmall/2018/12/04/150253050.jpg\",\"Description\":\"string\",\"Small\":\"https://gaimg.fx110.com/upload/images/glodcoinmall/2018/12/04/150253050.jpg\"}],\"commentIp\":null,\"commentStatus\":1,\"commentTime\":1543914597000,\"commentType\":2,\"ipArea\":null,\"isPraised\":0,\"officialReplyReturn\":{\"officialContent\":\"这款手机真的很不错，谢谢您的支持\",\"officialHeadImg\":\"https://gaimg.fx110.com/upload/images/glodcoinmall/2019/04/22/145031348.jpg\",\"officialImages\":null,\"officialNickname\":\"汇聊官方回复\",\"officialReplyId\":716,\"officialTime\":1544441533000,\"parentId\":1},\"officialStatus\":1,\"parentId\":0,\"praiseTotal\":1239,\"replyTotal\":0,\"uid\":20162955,\"user\":{\"fxCode\":\"471279\",\"nickName\":\"CD2362107\",\"uid\":20162955,\"userAuth\":{\"bu\":0,\"id\":0,\"kb\":0,\"niu\":0},\"userHeadImage\":\"https://fxchatimage.fx110.com/headdefault/5.jpg\",\"userHeadImg_120\":\"https://fxchatimage.fx110.com/headdefault/5.jpg\",\"userHeadImg_48\":\"https://fxchatimage.fx110.com/headdefault/5.jpg\",\"userHeadImg_80\":\"https://fxchatimage.fx110.com/headdefault/5.jpg\"}}],\"pageIndex\":1,\"pageSize\":1,\"totalCount\":14,\"totalPage\":14}"
+      subCode: 0
+
+查询失败_正确的uid_不存在的aboutId.case02:
+    apiPath:
+      /api/getCommentList
+    params:
+      uid: 20162955
+      aboutId: 100
+      parentId: 0
+      pageIndex: 1
+      pageSize: 1
+    http_statusCode:
+      200
+    responsesBody:
+      code: 0
+      message: "ok"
+      bodyMessage: "{\"mainComment\":null,\"pageDatas\":[],\"pageIndex\":1,\"pageSize\":1,\"totalCount\":0,\"totalPage\":0}"
+      subCode: 0
+
+查询失败_错误的uid_正确的aboutId.case03:
+    apiPath:
+      /api/getCommentList
+    params:
+      uid: 20105469
+      aboutId: 10
+      parentId: 0
+      pageIndex: 1
+      pageSize: 1
+    http_statusCode:
+      200
+    responsesBody:
+      code: 0
+      message: "参数错误"
+      bodyMessage: null
+      subCode: 700001
+
+查询成功_主评ID不默认.case04:
+    apiPath:
+      /api/getCommentList
+    params:
+      uid: 41
+      aboutId: 47
+      parentId: 719
+      pageIndex: 1
+      pageSize: 1
+    http_statusCode:
+      200
+    responsesBody:
+      code: 0
+      message: "参数错误"
+      bodyMessage: null
+      subCode: 700001
