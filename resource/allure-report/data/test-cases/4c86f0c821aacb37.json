@@ -1,0 +1,84 @@
+{
+  "uid" : "4c86f0c821aacb37",
+  "name" : "test_api_getCommentList_request[params29]",
+  "fullName" : "test_coinMalll_api#test_api_getCommentList_request[params29]",
+  "historyId" : "c723e2361d6d93e01600637b52aea63a",
+  "time" : {
+    "start" : 1564826289931,
+    "stop" : 1564826290037,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "test_api_getCommentList_request",
+      "time" : {
+        "start" : 1564826289931,
+        "stop" : 1564826290037,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "params",
+        "value" : "{'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_coinMalll_api"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7UMAVOP"
+  }, {
+    "name" : "thread",
+    "value" : "7904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_coinMalll_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params",
+    "value" : "{'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c86f0c821aacb37.json",
+  "parameterValues" : [ "{'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}" ]
+}
