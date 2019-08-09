@@ -1,5 +1,299 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Expected <-1> to be equal to <0>, but was not.",
+      "children" : [ {
+        "name" : "test_api_request[params_exp0]",
+        "uid" : "ea0f6ecba960d7ba",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254365386,
+          "stop" : 1565254365576,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '10', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+      }, {
+        "name" : "test_api_request[params_exp4]",
+        "uid" : "dc9fe9454c1a62db",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254366357,
+          "stop" : 1565254366577,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp5]",
+        "uid" : "c797a7f8ea2b265c",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254366608,
+          "stop" : 1565254366796,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp6]",
+        "uid" : "cdcade4c51bf29fd",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254366812,
+          "stop" : 1565254366984,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp7]",
+        "uid" : "c2f4ac136201353d",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254366999,
+          "stop" : 1565254367187,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+      }, {
+        "name" : "test_api_request[params_exp11]",
+        "uid" : "c16beefcf2550389",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254367859,
+          "stop" : 1565254368047,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': 'None', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp12]",
+        "uid" : "77f5926b55b03877",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254368078,
+          "stop" : 1565254368627,
+          "duration" : 549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': 'None', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp13]",
+        "uid" : "4b2a467ee686bbfb",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254368642,
+          "stop" : 1565254368814,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': 'None', 'uid': 'None', 'parentId': 'None', 'pageIndex': 'None'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp14]",
+        "uid" : "96a012dc3a620cd3",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254368845,
+          "stop" : 1565254369033,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': 'None', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+      }, {
+        "name" : "test_api_request[params_exp18]",
+        "uid" : "72a0f56f250f973a",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254369612,
+          "stop" : 1565254369815,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp19]",
+        "uid" : "c1c79d2124909a7",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254369831,
+          "stop" : 1565254370003,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp20]",
+        "uid" : "64ccff3de0f0a38c",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254370034,
+          "stop" : 1565254370222,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp21]",
+        "uid" : "d5da5ebe58e7a71f",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254370237,
+          "stop" : 1565254370409,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+      }, {
+        "name" : "test_api_request[params_exp25]",
+        "uid" : "b1503e363a54392d",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254371082,
+          "stop" : 1565254371254,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp26]",
+        "uid" : "bc766697354603f7",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254371301,
+          "stop" : 1565254371491,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp27]",
+        "uid" : "196e083d330bdec5",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254371522,
+          "stop" : 1565254371694,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp28]",
+        "uid" : "f36017f47799df7",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254371756,
+          "stop" : 1565254371959,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+      }, {
+        "name" : "test_api_request[params_exp32]",
+        "uid" : "4915d9e532d5a7d0",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254372951,
+          "stop" : 1565254373186,
+          "duration" : 235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp33]",
+        "uid" : "46da770d4417ee22",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254373217,
+          "stop" : 1565254373420,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp34]",
+        "uid" : "7cfafe207f897281",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254373451,
+          "stop" : 1565254373640,
+          "duration" : 189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+      }, {
+        "name" : "test_api_request[params_exp35]",
+        "uid" : "d664985884fe17ad",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254373655,
+          "stop" : 1565254373843,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+      }, {
+        "name" : "test_api_request[params_exp39]",
+        "uid" : "e3a841d3268015e",
+        "parentUid" : "2d9c83aeab01e1be26d579df25c9bb9f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1565254374502,
+          "stop" : 1565254374689,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+      } ],
+      "uid" : "2d9c83aeab01e1be26d579df25c9bb9f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

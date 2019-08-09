@@ -1,0 +1,97 @@
+{
+  "uid" : "ea0f6ecba960d7ba",
+  "name" : "test_api_request[params_exp0]",
+  "fullName" : "testcase.test_api_demo.TestCaseExecuting#test_api_request[params_exp0]",
+  "historyId" : "04fe232272d113a191191fa88fdd96f3",
+  "time" : {
+    "start" : 1565254365386,
+    "stop" : 1565254365576,
+    "duration" : 190
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected <-1> to be equal to <0>, but was not.",
+  "statusTrace" : "self = <test_api_demo.TestCaseExecuting object at 0x000001D732A720B8>\nparams_exp = ({'aboutId': '10', 'pageIndex': '1', 'parentId': '0', 'uid': '20165943'}, {'caseName': '全部都填', 'code': 0, 'http_statusCode': '200', 'subcode': '0'})\n\n    @allure.step\n    @pytest.mark.parametrize('params_exp', [data for data in CaseAttrData.readWorkslData(worksheet)])\n    def test_api_request(self, params_exp):\n        # print(params)\n        paramsValue, expextValue = params_exp[0], params_exp[1]\n        #print(params, exp)\n        resp_result = Requestpy.request_exec(self, method=method, url=api_baseUrl + apipath,\n                                             params=paramsValue, headers=headers)\n        # elapsedTime = r.elapsed.total_seconds()\n        # assertEqual(r.status_code, http_statusCode)\n        print(resp_result)\n        # assert_that(resp_result['responsesBody'].get(\n        #    'status_code')).is_equal_to(expextValue.get('http_statusCode'))\n        assert_that(resp_result['responsesBody'].get(\n>           'code')).is_equal_to(expextValue.get('code'))\n        \"\"\"\n        try:\n            assert_that(resp_result['responsesBody'].get(\n                'code')).is_equal_to(0)\n        except AssertionError:\n            assert_that(resp_result['responsesBody'].get(\n                'code')).is_equal_to(-1)\nE               AssertionError: Expected <-1> to be equal to <0>, but was not.\n\ntestcase\\test_api_demo.py:64: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected <-1> to be equal to <0>, but was not.",
+    "statusTrace" : "self = <test_api_demo.TestCaseExecuting object at 0x000001D732A720B8>\nparams_exp = ({'aboutId': '10', 'pageIndex': '1', 'parentId': '0', 'uid': '20165943'}, {'caseName': '全部都填', 'code': 0, 'http_statusCode': '200', 'subcode': '0'})\n\n    @allure.step\n    @pytest.mark.parametrize('params_exp', [data for data in CaseAttrData.readWorkslData(worksheet)])\n    def test_api_request(self, params_exp):\n        # print(params)\n        paramsValue, expextValue = params_exp[0], params_exp[1]\n        #print(params, exp)\n        resp_result = Requestpy.request_exec(self, method=method, url=api_baseUrl + apipath,\n                                             params=paramsValue, headers=headers)\n        # elapsedTime = r.elapsed.total_seconds()\n        # assertEqual(r.status_code, http_statusCode)\n        print(resp_result)\n        # assert_that(resp_result['responsesBody'].get(\n        #    'status_code')).is_equal_to(expextValue.get('http_statusCode'))\n        assert_that(resp_result['responsesBody'].get(\n>           'code')).is_equal_to(expextValue.get('code'))\n        \"\"\"\n        try:\n            assert_that(resp_result['responsesBody'].get(\n                'code')).is_equal_to(0)\n        except AssertionError:\n            assert_that(resp_result['responsesBody'].get(\n                'code')).is_equal_to(-1)\nE               AssertionError: Expected <-1> to be equal to <0>, but was not.\n\ntestcase\\test_api_demo.py:64: AssertionError",
+    "steps" : [ {
+      "name" : "test_api_request",
+      "time" : {
+        "start" : 1565254365386,
+        "stop" : 1565254365576,
+        "duration" : 190
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected <-1> to be equal to <0>, but was not.\n",
+      "statusTrace" : "  File \"D:\\Program Files\\Python3\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\py-working\\99.coinMall-autotest-api(pytest)\\testcase\\test_api_demo.py\", line 64, in test_api_request\n    'code')).is_equal_to(expextValue.get('code'))\n  File \"E:\\py-working\\99.coinMall-autotest-api(pytest)\\common\\assertpy.py\", line 168, in is_equal_to\n    self._err('Expected <%s> to be equal to <%s>, but was not.' % (self.val, other))\n  File \"E:\\py-working\\99.coinMall-autotest-api(pytest)\\common\\assertpy.py\", line 1103, in _err\n    raise AssertionError(out)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "params_exp",
+        "value" : "({'aboutId': '10', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseExecuting"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7UMAVOP"
+  }, {
+    "name" : "thread",
+    "value" : "9596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_api_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params_exp",
+    "value" : "({'aboutId': '10', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ea0f6ecba960d7ba.json",
+  "parameterValues" : [ "({'aboutId': '10', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+}

@@ -2,524 +2,528 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test_coinMalll_api",
+    "name" : "testcase.test_api_demo",
     "children" : [ {
-      "name" : "test_api_getCommentList_request[params0]",
-      "uid" : "9e138e833e90be0c",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
+      "name" : "test_api_request[params_exp0]",
+      "uid" : "ea0f6ecba960d7ba",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
       "time" : {
-        "start" : 1564826286057,
-        "stop" : 1564826286247,
+        "start" : 1565254365386,
+        "stop" : 1565254365576,
         "duration" : 190
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '10', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '10', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params1]",
-      "uid" : "a55f68f238ba4fe7",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp1]",
+      "uid" : "3a32a567d384370f",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826286252,
-        "stop" : 1564826286388,
-        "duration" : 136
+        "start" : 1565254365747,
+        "stop" : 1565254365951,
+        "duration" : 204
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'uid错误', 'http_statusCode': '200', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params2]",
-      "uid" : "f63727843ff14131",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp2]",
+      "uid" : "ff3874f6506662c4",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826286399,
-        "stop" : 1564826286525,
-        "duration" : 126
+        "start" : 1565254365966,
+        "stop" : 1565254366138,
+        "duration" : 172
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '10', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '10', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params3]",
-      "uid" : "8f9be3e6af45b7db",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp3]",
+      "uid" : "fba590702dff1db3",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826286529,
-        "stop" : 1564826286638,
-        "duration" : 109
+        "start" : 1565254366154,
+        "stop" : 1565254366341,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '10', 'uid': 'None', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '10', 'uid': 'None', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'uid不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params4]",
-      "uid" : "b8a111bd6a1e7d25",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp4]",
+      "uid" : "dc9fe9454c1a62db",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254366357,
+        "stop" : 1565254366577,
+        "duration" : 220
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp5]",
+      "uid" : "c797a7f8ea2b265c",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254366608,
+        "stop" : 1565254366796,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp6]",
+      "uid" : "cdcade4c51bf29fd",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254366812,
+        "stop" : 1565254366984,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp7]",
+      "uid" : "c2f4ac136201353d",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254366999,
+        "stop" : 1565254367187,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+    }, {
+      "name" : "test_api_request[params_exp8]",
+      "uid" : "7d6a87d7eb9a2d58",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826286651,
-        "stop" : 1564826286763,
-        "duration" : 112
+        "start" : 1565254367218,
+        "stop" : 1565254367405,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'uid错误', 'http_statusCode': '200', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params5]",
-      "uid" : "d52712e7822b73cf",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp9]",
+      "uid" : "41fb8df9c68b9574",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826286768,
-        "stop" : 1564826286870,
-        "duration" : 102
+        "start" : 1565254367421,
+        "stop" : 1565254367594,
+        "duration" : 173
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params6]",
-      "uid" : "ce6500bd43bde625",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp10]",
+      "uid" : "4c0fa4485c265f67",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826286887,
-        "stop" : 1564826287025,
-        "duration" : 138
+        "start" : 1565254367625,
+        "stop" : 1565254367828,
+        "duration" : 203
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '10', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1'}, {'caseName': 'uid不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params7]",
-      "uid" : "da468f605f534146",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp11]",
+      "uid" : "c16beefcf2550389",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254367859,
+        "stop" : 1565254368047,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': 'None', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp12]",
+      "uid" : "77f5926b55b03877",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254368078,
+        "stop" : 1565254368627,
+        "duration" : 549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': 'None', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp13]",
+      "uid" : "4b2a467ee686bbfb",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254368642,
+        "stop" : 1565254368814,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': 'None', 'uid': 'None', 'parentId': 'None', 'pageIndex': 'None'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp14]",
+      "uid" : "96a012dc3a620cd3",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254368845,
+        "stop" : 1565254369033,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': 'None', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+    }, {
+      "name" : "test_api_request[params_exp15]",
+      "uid" : "162f6d7df6fbd6fb",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287031,
-        "stop" : 1564826287124,
-        "duration" : 93
+        "start" : 1565254369049,
+        "stop" : 1565254369205,
+        "duration" : 156
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': 'None', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': 'None', 'pageIndex': '1'}, {'caseName': 'uid错误', 'http_statusCode': '200', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params8]",
-      "uid" : "d8b26572fb79006a",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp16]",
+      "uid" : "971e04f3c67d034f",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287137,
-        "stop" : 1564826287286,
-        "duration" : 149
+        "start" : 1565254369220,
+        "stop" : 1565254369392,
+        "duration" : 172
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params9]",
-      "uid" : "84739b6a931f31fb",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp17]",
+      "uid" : "670b5a76f167e6bf",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287297,
-        "stop" : 1564826287387,
-        "duration" : 90
+        "start" : 1565254369408,
+        "stop" : 1565254369597,
+        "duration" : 189
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'uid不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params10]",
-      "uid" : "971b572fb2c09432",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp18]",
+      "uid" : "72a0f56f250f973a",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254369612,
+        "stop" : 1565254369815,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp19]",
+      "uid" : "c1c79d2124909a7",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254369831,
+        "stop" : 1565254370003,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp20]",
+      "uid" : "64ccff3de0f0a38c",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254370034,
+        "stop" : 1565254370222,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp21]",
+      "uid" : "d5da5ebe58e7a71f",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254370237,
+        "stop" : 1565254370409,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+    }, {
+      "name" : "test_api_request[params_exp22]",
+      "uid" : "e92fbd8c733953bf",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287399,
-        "stop" : 1564826287522,
-        "duration" : 123
+        "start" : 1565254370456,
+        "stop" : 1565254370661,
+        "duration" : 205
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'uid错误', 'http_statusCode': '200', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params11]",
-      "uid" : "9699d7ca9528bdec",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp23]",
+      "uid" : "b12e63f7ead78d95",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287532,
-        "stop" : 1564826287655,
-        "duration" : 123
+        "start" : 1565254370661,
+        "stop" : 1565254370848,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params12]",
-      "uid" : "2e42a594af671a21",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp24]",
+      "uid" : "ca05d5dfc94e326",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287661,
-        "stop" : 1564826287762,
-        "duration" : 101
+        "start" : 1565254370864,
+        "stop" : 1565254371067,
+        "duration" : 203
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1'}, {'caseName': 'uid不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params13]",
-      "uid" : "a00d094bd6cb8afd",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp25]",
+      "uid" : "b1503e363a54392d",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254371082,
+        "stop" : 1565254371254,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp26]",
+      "uid" : "bc766697354603f7",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254371301,
+        "stop" : 1565254371491,
+        "duration" : 190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp27]",
+      "uid" : "196e083d330bdec5",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254371522,
+        "stop" : 1565254371694,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp28]",
+      "uid" : "f36017f47799df7",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254371756,
+        "stop" : 1565254371959,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+    }, {
+      "name" : "test_api_request[params_exp29]",
+      "uid" : "b14f2ab77c97d372",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287777,
-        "stop" : 1564826287927,
-        "duration" : 150
+        "start" : 1565254371990,
+        "stop" : 1565254372496,
+        "duration" : 506
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': 'None', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'uid错误', 'http_statusCode': '200', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params14]",
-      "uid" : "66e38b5765935ba0",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp30]",
+      "uid" : "132d14c6a98d29eb",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826287940,
-        "stop" : 1564826288066,
-        "duration" : 126
+        "start" : 1565254372514,
+        "stop" : 1565254372701,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': 'None', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params15]",
-      "uid" : "bfd1aa3499c1b491",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp31]",
+      "uid" : "5a28aa6e51e292a0",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826288085,
-        "stop" : 1564826288200,
-        "duration" : 115
+        "start" : 1565254372732,
+        "stop" : 1565254372935,
+        "duration" : 203
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': 'None', 'uid': 'None', 'parentId': 'None', 'pageIndex': 'None', 'pageSize': 'None'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'uid不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params16]",
-      "uid" : "f3693983ca3d8d0f",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp32]",
+      "uid" : "4915d9e532d5a7d0",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254372951,
+        "stop" : 1565254373186,
+        "duration" : 235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp33]",
+      "uid" : "46da770d4417ee22",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254373217,
+        "stop" : 1565254373420,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'pageIndex不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp34]",
+      "uid" : "7cfafe207f897281",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254373451,
+        "stop" : 1565254373640,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None'}, {'caseName': 'pageSize不填', 'http_statusCode': '200', 'code': 0, 'subcode': 0})" ]
+    }, {
+      "name" : "test_api_request[params_exp35]",
+      "uid" : "d664985884fe17ad",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1565254373655,
+        "stop" : 1565254373843,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': '全部都填', 'http_statusCode': '200', 'code': 0, 'subcode': '0'})" ]
+    }, {
+      "name" : "test_api_request[params_exp36]",
+      "uid" : "e6a086ba64f30119",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826288214,
-        "stop" : 1564826288367,
-        "duration" : 153
+        "start" : 1565254373858,
+        "stop" : 1565254374046,
+        "duration" : 188
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': 'None', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'uid错误', 'http_statusCode': '200', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params17]",
-      "uid" : "762cb1a09c5b55d9",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp37]",
+      "uid" : "ed0baee30b7f5d44",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826288371,
-        "stop" : 1564826288472,
-        "duration" : 101
+        "start" : 1565254374046,
+        "stop" : 1565254374249,
+        "duration" : 203
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '20165943', 'parentId': 'None', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params18]",
-      "uid" : "d51f144758f999bc",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
+      "name" : "test_api_request[params_exp38]",
+      "uid" : "954dba295dde990b",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564826288489,
-        "stop" : 1564826288627,
-        "duration" : 138
+        "start" : 1565254374265,
+        "stop" : 1565254374486,
+        "duration" : 221
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1'}, {'caseName': 'uid不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
     }, {
-      "name" : "test_api_getCommentList_request[params19]",
-      "uid" : "3335032ade386967",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
+      "name" : "test_api_request[params_exp39]",
+      "uid" : "e3a841d3268015e",
+      "parentUid" : "6a78b9d9de71c6df2edcc69c9e5af9a1",
+      "status" : "failed",
       "time" : {
-        "start" : 1564826288633,
-        "stop" : 1564826288759,
-        "duration" : 126
+        "start" : 1565254374502,
+        "stop" : 1565254374689,
+        "duration" : 187
       },
       "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params20]",
-      "uid" : "6d3060fae6c17c9e",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826288769,
-        "stop" : 1564826288864,
-        "duration" : 95
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params21]",
-      "uid" : "5c00499edfbbc9f",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826288877,
-        "stop" : 1564826289007,
-        "duration" : 130
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params22]",
-      "uid" : "2184ad4fccd7ec6d",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289018,
-        "stop" : 1564826289127,
-        "duration" : 109
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params23]",
-      "uid" : "3fa7fdb4c109e5b6",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289135,
-        "stop" : 1564826289276,
-        "duration" : 141
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params24]",
-      "uid" : "1443cc0c9c9c9dc1",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289288,
-        "stop" : 1564826289400,
-        "duration" : 112
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params25]",
-      "uid" : "9097b044c154dd69",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289415,
-        "stop" : 1564826289533,
-        "duration" : 118
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params26]",
-      "uid" : "e98ad9aac97ded44",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289546,
-        "stop" : 1564826289658,
-        "duration" : 112
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params27]",
-      "uid" : "d70ab071b68c9110",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289671,
-        "stop" : 1564826289779,
-        "duration" : 108
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params28]",
-      "uid" : "ab3e9b159adacbb8",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289792,
-        "stop" : 1564826289924,
-        "duration" : 132
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params29]",
-      "uid" : "4c86f0c821aacb37",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826289931,
-        "stop" : 1564826290037,
-        "duration" : 106
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params30]",
-      "uid" : "2121793480b2d392",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290051,
-        "stop" : 1564826290173,
-        "duration" : 122
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params31]",
-      "uid" : "80e96a24bbb1f764",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290178,
-        "stop" : 1564826290296,
-        "duration" : 118
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params32]",
-      "uid" : "1416ffafe620d6b5",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290315,
-        "stop" : 1564826290417,
-        "duration" : 102
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params33]",
-      "uid" : "9f7d71e219831cdd",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290422,
-        "stop" : 1564826290535,
-        "duration" : 113
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params34]",
-      "uid" : "e51608f4ec475db6",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290541,
-        "stop" : 1564826290641,
-        "duration" : 100
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params35]",
-      "uid" : "c1ca544eb2953d76",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290648,
-        "stop" : 1564826290785,
-        "duration" : 137
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params36]",
-      "uid" : "51dd6e8a405cc6e6",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290798,
-        "stop" : 1564826290957,
-        "duration" : 159
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '20165943', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params37]",
-      "uid" : "c8101f6e1c2335ca",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826290962,
-        "stop" : 1564826291087,
-        "duration" : 125
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': 'None', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params38]",
-      "uid" : "dbee3f9af31248e",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826291094,
-        "stop" : 1564826291216,
-        "duration" : 122
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params39]",
-      "uid" : "be65f67e1a835dba",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826291231,
-        "stop" : 1564826291338,
-        "duration" : 107
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': 'None', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params40]",
-      "uid" : "de6b3067f6b3be",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826291343,
-        "stop" : 1564826291468,
-        "duration" : 125
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params41]",
-      "uid" : "8c4724ceba041e77",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826291478,
-        "stop" : 1564826291588,
-        "duration" : 110
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': 'None', 'pageIndex': '1', 'pageSize': '1'}" ]
-    }, {
-      "name" : "test_api_getCommentList_request[params42]",
-      "uid" : "982894f0e7a2ec75",
-      "parentUid" : "85b9762c834d67ceb0673968e82c947a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564826291602,
-        "stop" : 1564826291693,
-        "duration" : 91
-      },
-      "flaky" : false,
-      "parameters" : [ "{'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1', 'pageSize': 'None'}" ]
+      "newFailed" : false,
+      "parameters" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'parentId不填', 'http_statusCode': '400', 'code': 0, 'subcode': 0})" ]
     } ],
-    "uid" : "85b9762c834d67ceb0673968e82c947a"
+    "uid" : "testcase.test_api_demo"
   } ]
 }

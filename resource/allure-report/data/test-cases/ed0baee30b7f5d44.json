@@ -1,0 +1,87 @@
+{
+  "uid" : "ed0baee30b7f5d44",
+  "name" : "test_api_request[params_exp37]",
+  "fullName" : "testcase.test_api_demo.TestCaseExecuting#test_api_request[params_exp37]",
+  "historyId" : "62337dd7e48914ab61e6376d703f5738",
+  "time" : {
+    "start" : 1565254374046,
+    "stop" : 1565254374249,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "test_api_request",
+      "time" : {
+        "start" : 1565254374046,
+        "stop" : 1565254374249,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "params_exp",
+        "value" : "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseExecuting"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7UMAVOP"
+  }, {
+    "name" : "thread",
+    "value" : "9596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_api_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "params_exp",
+    "value" : "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed0baee30b7f5d44.json",
+  "parameterValues" : [ "({'aboutId': '1043', 'uid': '2016431', 'parentId': '0', 'pageIndex': '1'}, {'caseName': 'aboutId不填', 'http_statusCode': '400', 'code': -1, 'subcode': 0})" ]
+}
